@@ -1,0 +1,167 @@
+[
+  {
+    "Name": "Chrome",
+    "Core": "Chromium",
+    "Versions": [
+      {
+        "DisplayVersion": "142.0.7444.163",
+        "CoreVersion": "142",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "139.0.7258.139",
+        "CoreVersion": "139",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "137.0.7151.41",
+        "CoreVersion": "137",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "135.0.7049.42",
+        "CoreVersion": "135",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "134.0.6998.89",
+        "CoreVersion": "134",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "132.0.6834.84",
+        "CoreVersion": "132",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "129.0.6533.73",
+        "CoreVersion": "129",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "127.0.6533.73",
+        "CoreVersion": "127",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "124.0.6367.29",
+        "CoreVersion": "124",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "121.0.6167.140",
+        "CoreVersion": "121",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "119.0.6045.124",
+        "CoreVersion": "119",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "115.0.5790.75",
+        "CoreVersion": "115",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "111.0.5563.50",
+        "CoreVersion": "111",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "107.0.5304.8",
+        "CoreVersion": "107",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "106.0.5249.119",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "105.0.5195.102",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "102.0.5005.63",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "102.0.5005.62",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "101.0.4951.54",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "100.0.4896.75",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "99.0.4844.84",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "98.0.4758.102",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "97.0.4692.99",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "96.0.4664.45",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.0.0 Safari/537.36"
+      },
+      {
+        "DisplayVersion": "95.0.4638.69",
+        "CoreVersion": "102",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.0.0 Safari/537.36"
+      }
+    ]
+  },
+  {
+    "Name": "Firefox",
+    "Core": "Firefox",
+    "Versions": [
+      {
+        "DisplayVersion": "145.0",
+        "CoreVersion": "145",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}; rv:134.0) Gecko/20100101 Firefox/145.0",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh; rv:134.0) Gecko/20100101 Firefox/145.0"
+      },
+      {
+        "DisplayVersion": "134.0",
+        "CoreVersion": "134",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}; rv:134.0) Gecko/20100101 Firefox/134.0",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh; rv:134.0) Gecko/20100101 Firefox/134.0"
+      },
+      {
+        "DisplayVersion": "119.0",
+        "CoreVersion": "119",
+        "UseragentForm": "Mozilla/5.0 ({win_nt_version}; {win_platform}; rv:109.0) Gecko/20100101 Firefox/119.0",
+        "UseragentMacForm": "Mozilla/5.0 ({win_nt_version}; Macintosh; rv:109.0) Gecko/20100101 Firefox/119.0"
+      }
+    ]
+  }
+]

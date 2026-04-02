@@ -1,0 +1,1956 @@
+{
+   "background": {
+      "scripts": [ "tts_extension.js" ],
+      "persistent": false
+   },
+   "description": "Component extension providing speech via the Google network text-to-speech service.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8GSbNUMGygqQTNDMFGIjZNcwXsHLzkNkHjWbuY37PbNdSDZ4VqlVjzbWqODSe+MjELdv5Keb51IdytnoGYXBMyqKmWpUrg+RnKvQ5ibWr4MW9pyIceOIdp9GrzC1WZGgTmZismYR3AjaIpufZ7xDdQQv+XrghPWCkdVqLN+qZDA1HU+DURznkMICiDDSH2sU0egm9UbWfS218bZqzKeQDiC3OnTPlaxcbJtKUuupIm5knjze3Wo9Ae9poTDMzKgchg0VlFCv3uqox+wlD8sjXBoyBCCK9HpImdVAF1a7jpdgiUHpPeV/26oYzM9/grltwNR3bzECQgSpyXp0eyoegwIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Network Speech MacOS",
+   "permissions": [
+     "systemPrivate",
+     "ttsEngine",
+     "https://www.google.com/"
+   ],
+   "tts_engine": {
+    "voices": [
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Daniel (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Aaron"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Albert"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Alice"
+      },
+      {
+        "lang": "sv-SE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Alva"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Amélie"
+      },
+      {
+        "lang": "ms-MY",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Amira"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Anna"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Arthur"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Bad News"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Bahh"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Bells"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Boing"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Bubbles"
+      },
+      {
+        "lang": "he-IL",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Carmit"
+      },
+      {
+        "lang": "en-AU",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Catherine"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Cellos"
+      },
+      {
+        "lang": "id-ID",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Damayanti"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Daniel (French (France))"
+      },
+      {
+        "lang": "bg-BG",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Daria"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (French (Canada))"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (French (France))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Eddy (Portuguese (Brazil))"
+      },
+      {
+        "lang": "nl-BE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Ellen"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (French (Canada))"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (French (France))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Flo (Portuguese (Brazil))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Fred"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Good News"
+      },
+      {
+        "lang": "en-AU",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Gordon"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (French (Canada))"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (French (France))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandma (Portuguese (Brazil))"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (French (Canada))"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (French (France))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Grandpa (Portuguese (Brazil))"
+      },
+      {
+        "lang": "ja-JP",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Hattori"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Helena"
+      },
+      {
+        "lang": "ro-RO",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Ioana"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Jacques"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Jester"
+      },
+      {
+        "lang": "pt-PT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Joana"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Junior"
+      },
+      {
+        "lang": "th-TH",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Kanya"
+      },
+      {
+        "lang": "en-AU",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Karen"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Kathy"
+      },
+      {
+        "lang": "ja-JP",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Kyoko"
+      },
+      {
+        "lang": "hr-HR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Lana"
+      },
+      {
+        "lang": "sk-SK",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Laura"
+      },
+      {
+        "lang": "hi-IN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Lekha"
+      },
+      {
+        "lang": "uk-UA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Lesya"
+      },
+      {
+        "lang": "zh-CN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Li-Mu"
+      },
+      {
+        "lang": "vi-VN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Linh"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Luciana"
+      },
+      {
+        "lang": "ar-001",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Majed"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Marie"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Martha"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Martin"
+      },
+      {
+        "lang": "zh-TW",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Meijia"
+      },
+      {
+        "lang": "el-GR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Melina"
+      },
+      {
+        "lang": "ru-RU",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Milena"
+      },
+      {
+        "lang": "en-IE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Moira"
+      },
+      {
+        "lang": "ca-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Montse"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Mónica"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Nicky"
+      },
+      {
+        "lang": "nb-NO",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Nora"
+      },
+      {
+        "lang": "ja-JP",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "O-Ren"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Organ"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Paulina"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Ralph"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (French (Canada))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Reed (Portuguese (Brazil))"
+      },
+      {
+        "lang": "en-IN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rishi"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (French (Canada))"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (French (France))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Rocko (Portuguese (Brazil))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Samantha"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (French (Canada))"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (French (France))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sandy (Portuguese (Brazil))"
+      },
+      {
+        "lang": "da-DK",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sara"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Satu"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (German (Germany))"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (English (United Kingdom))"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (English (United States))"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (Spanish (Spain))"
+      },
+      {
+        "lang": "es-MX",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (Spanish (Mexico))"
+      },
+      {
+        "lang": "fi-FI",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (Finnish (Finland))"
+      },
+      {
+        "lang": "fr-CA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (French (Canada))"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (French (France))"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (Italian (Italy))"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Shelley (Portuguese (Brazil))"
+      },
+      {
+        "lang": "zh-HK",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Sinji"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Superstar"
+      },
+      {
+        "lang": "en-ZA",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Tessa"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Thomas"
+      },
+      {
+        "lang": "zh-CN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Tingting"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Trinoids"
+      },
+      {
+        "lang": "hu-HU",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Tünde"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Whisper"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Wobble"
+      },
+      {
+        "lang": "nl-NL",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Xander"
+      },
+      {
+        "lang": "tr-TR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Yelda"
+      },
+      {
+        "lang": "zh-CN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Yu-shu"
+      },
+      {
+        "lang": "ko-KR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Yuna"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Zarvox"
+      },
+      {
+        "lang": "pl-PL",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Zosia"
+      },
+      {
+        "lang": "cs-CZ",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": false,
+        "voice_name": "Zuzana"
+      },
+      {
+        "lang": "de-DE",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google Deutsch"
+      },
+      {
+        "lang": "en-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google US English"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google UK English Female"
+      },
+      {
+        "lang": "en-GB",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google UK English Male"
+      },
+      {
+        "lang": "es-ES",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google español"
+      },
+      {
+        "lang": "es-US",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google español de Estados Unidos"
+      },
+      {
+        "lang": "fr-FR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google français"
+      },
+      {
+        "lang": "hi-IN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google हिन्दी"
+      },
+      {
+        "lang": "id-ID",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google Bahasa Indonesia"
+      },
+      {
+        "lang": "it-IT",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google italiano"
+      },
+      {
+        "lang": "ja-JP",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google 日本語"
+      },
+      {
+        "lang": "ko-KR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google 한국의"
+      },
+      {
+        "lang": "nl-NL",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google Nederlands"
+      },
+      {
+        "lang": "pl-PL",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google polski"
+      },
+      {
+        "lang": "pt-BR",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google português do Brasil"
+      },
+      {
+        "lang": "ru-RU",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google русский"
+      },
+      {
+        "lang": "zh-CN",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google 普通话（中国大陆）"
+      },
+      {
+        "lang": "zh-HK",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google 粤語（香港）"
+      },
+      {
+        "lang": "zh-TW",
+        "gender": "female",
+        "event_types": [
+          "start",
+          "end",
+          "error"
+        ],
+        "remote": true,
+        "voice_name": "Google 國語（臺灣）"
+      }
+    ]
+   },
+   "version": "1.0"
+}

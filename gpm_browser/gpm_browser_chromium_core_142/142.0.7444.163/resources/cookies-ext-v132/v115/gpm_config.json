@@ -1,0 +1,4 @@
+{
+  "url_server": "http://localhost:9996",
+  "websocket_server": "ws://localhost:9967"
+}

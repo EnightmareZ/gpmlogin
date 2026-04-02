@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "chrome/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extAction__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "scripts/avim.js", "scripts/extension.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBnQMD4iubVeJaaAURHhnUxDNfEavTpglQC3QisFdaXjmy5vtaplPBx9kHjFtFt3HOTfNPkXKGB0+Smo/QdOGX59In2oxjI4hKXnA9aGzBsUXGS2MKtqsTFLNaf2CyeWzcCNecp1Ej5dl6dyumfTWQBt8R3cv5TC1gMaeJWN3/DwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.8.5"
+}

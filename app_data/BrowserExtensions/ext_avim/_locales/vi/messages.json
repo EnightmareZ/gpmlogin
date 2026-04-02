@@ -1,0 +1,58 @@
+{
+   "extAction": {
+      "description": "Default title of browser action",
+      "message": "Đổi kiểu gõ AVIM"
+   },
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Bộ gõ tiếng Việt dành cho Chrome, hoạt động tốt trên hầu hết các trang web hiện có."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "AVIM - Bộ Gõ Tiếng Việt"
+   },
+   "extPopupAuto": {
+      "description": "",
+      "message": "Kết hợp TELEX và VNI"
+   },
+   "extPopupDemo": {
+      "description": "",
+      "message": "Gõ nhanh"
+   },
+   "extPopupDemoCopy": {
+      "description": "",
+      "message": "Bôi đen toàn bộ"
+   },
+   "extPopupOff": {
+      "description": "",
+      "message": "Tắt AVIM"
+   },
+   "extPopupSel": {
+      "description": "",
+      "message": "Chọn một kiểu gõ:"
+   },
+   "extPopupTelex": {
+      "description": "",
+      "message": "Kiểu TELEX"
+   },
+   "extPopupTips": {
+      "description": "",
+      "message": "Mẹo nhỏ:"
+   },
+   "extPopupTipsCtrl": {
+      "description": "",
+      "message": "Nhấn Ctrl 2 lần để bật/tắt nhanh."
+   },
+   "extPopupViqr": {
+      "description": "",
+      "message": "Kiểu VIQR"
+   },
+   "extPopupViqrStar": {
+      "description": "",
+      "message": "Kiểu VIQR*"
+   },
+   "extPopupVni": {
+      "description": "",
+      "message": "Kiểu VNI"
+   }
+}

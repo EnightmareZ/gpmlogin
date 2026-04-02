@@ -1,0 +1,1 @@
+var config = { } // Config giống data trong v111/gpm_cmd.json hoặc v115/gpm_config.json

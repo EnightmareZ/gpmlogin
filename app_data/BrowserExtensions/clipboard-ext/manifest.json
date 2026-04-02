@@ -1,0 +1,45 @@
+{
+    "name": "GPM Paste",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "GPM Login Paste Content",
+    "permissions": [
+        "clipboardRead",
+        "contextMenus",
+        "\u003Call_urls>",
+        "tabs"
+    ],
+    "background": {
+        "persistent": false,
+        "page": "background.html"
+    },
+    "browser_action": {
+        "default_title": "GPM Paste",
+        "default_popup": "popup.html"
+      },
+    "content_scripts": [
+        {
+            "matches": [
+                "\u003Call_urls>"
+            ],
+            "js": [
+                "contentscript.js", "jquery-3.6.0.min.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": false
+        }
+    ],
+    "commands": {
+        "command_gpm_paste" : {
+            "suggested_key": {
+                 "default": "Ctrl+Shift+V" 
+            },
+            "description": "GPM Login Paste"
+        }
+    },
+    "icons": {
+        "16": "anonymous_mask_24px.png",
+        "32": "anonymous_mask_24px.png",
+        "256": "anonymous_mask_24px.png"
+     }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Fake macOS",
+    "description": "",
+    "version": "1.0",
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": [
+      "<all_urls>",
+      "activeTab",
+      "tabs",
+      "webRequest",
+      "webRequestBlocking",
+      "storage",
+      "privacy"
+    ],
+    "background": {
+        "scripts":["background.js"]
+      },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>", "*://*/*"],
+        "all_frames": true,
+        "js": ["content-script.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "manifest_version": 2,
+    "web_accessible_resources": ["*"],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA45yjw0pIPMEubl7Yw5I0G4cB2R4KqyAgrTG9q1dpuJKonCcoO8e6SoXhGppzGgAZ6MIqri/U2LvA07bCbqV8E0X6mRYRyj4FkvUjXiLThFAFgeCWlDoZNkKX4zLt35em5QX2r6OmBX0RM7QR/U+qlxrQ+D7FI4szPKpcq4wv8PEH/GtpyznkOPCZXz3urhYrdZiuiC7TLo5NTrivlFo5E4lfglsSDbT01R6K/MfrkfaDzoq1ExUpppGaeiof0B/j72RBeEvLSirZHECR2IPMQdixZjOs6kFhL2MeVtE1X2tWYkDdKJF8aOyexWAqS49Xh4fEWCRXlNPIequBuGp0BQIDAQAB"
+  }

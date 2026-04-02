@@ -1,0 +1,167 @@
+﻿VERSION: 4.2.2-beta
+- Fix issue where old tab is not opened on Firefox
+- Add setting to disable SOCKS5 UDP
+- Hide proxies that do not support SOCKS5
+- Fix issue where extension data is not deleted even when the delete option is selected
+- Fix API not launching v137 when additional args include --disable-features or --enable-features
+
+VERSION: v4.0.0-beta
+- Increase license check speed to maximum level, optimize UI/UX
+- Import / Export profile will be compressed into a single zip file instead of folder format and reduce cache to make the exported file lighter, easier to use
+- Add "Tools": Backup, Restore, Rename profile folder, Auto fix resource
+- Add Chinese language
+
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-14
+- Add Go Proxy
+- Add api update webrtc mode
+- Change Fproxy to FProxy.me
+- Fix missing tag when grouping profiles
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-13
+- Add FProxy
+- Fix private server extension display error
+- Display Group Id for easy input into auto scripts
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-10
+- 64bit support
+------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-09
+- Update UI/UX
+- Fix not fixing tag deletion on version 08
+------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-05 / 06
+- Add profile selection mode: Scan to select or Check profile like traditional style
+- Update UI/UX
+- Update Chromium kernel v129 & Fingerprint (by pass fv.pro)
+- Add webRTC mode: Real
+- Fix profile sharing
+- Do not allow multiple accounts to download profiles at the same time
+- Check proxy before downloading profile from private server (reduce time in case proxy dies after downloading)
+- Add multi-threaded API mode for high-configuration machines
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-04
+- Fix selecting all in large quantities (1000 profiles) causing the interface to freeze at once
+- Fix small error with private server
+- Add mode check proxy for multiple servers at the same time (users can install in the settings if they want faster speed - should only choose 1 server)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.4-stable-03
+- Fix multi-threaded API bug
+- Update private server to allow cache extension, significantly reduce profile size on s3
+- Allow selecting multiple Profiles by mouse swipe
+- Allow setting up server to check IP & Timezone
+- GPMAutomate: Optimize multi-threading, allow limiting resource usage to avoid CPU / RAM / Disk overflow
+- GPMAutomate: Fix stop bug but not stop all profiles
+- GPMAutomate: Add function to run and schedule multiple apps at the same time
+- GPMAutomate: Fix some other bugs according to user reports
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.4-stable-02
+- Stop using GPU render
+- Fix dis app error when using multi-threaded api quantity large
+------------------------------------------------------------------------------------------------
+VERSION : v3.0.3-stable-08
+- Multi-threaded API (beta)
+- Show all extensions when editing extensions for a large number of profiles
+- Add 7z to unzip zip files
+- Add setting number of threads to download profiles (private server)
+------------------------------------------------------------------------------------------------
+VERSION : v3.0.3-stable-02
+- Update chromium v127
+- Add trash when deleting profiles
+- Add proxy setting function when cloning profiles
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-14
+- Integrate kiotproxy
+- GPMProScript: Add custom threshhold in Image search
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-10/11
+- Fix bug Sync action
+- GPMProScript: Allow reading mail in Spam folder
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-09
+- Fix sync action error with extension window
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-08
+- Fix some bugs from API v3
+- Fix sync action bug
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-07
+- GPMProScript: Fix error of not stopping gpmdriver process
+- GPMLogin: Add mode for window arrangement function
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-05/06
+- GPMLogin: fix some errors in the function of being synchronized
+- GPMLogin: add window arrangement function
+- GPMProScript: fix some errors of slow opening or not being able to close profile
+- GPMProScript: add Image Search function (requires re-downloading the setup version to overwrite the old version)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-04
+- Fix operation synchronization error
+- Fix export profile error for chrome 124 losing cookies when switching to new machine
+------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-02/03
+- Sync additional child windows like extensions
+- Sync more standard keys for pixel games and some other keyboard-related operations
+- Add notification when selecting too many windows
+- Browser: Fix extension creating new windows when opening profile, like OkX wallet
+- GPMProScript: Add proxy check bypass mode to quickly start profile (not recommended)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-01
+- GPMLogin: Update Chrome 124 kernel
+- GPMProscript: Add click operation by coordinates
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-07/08/09
+- GPMProScript: Fix display error when there are multiple variable names
+- GPMProScript: Fix bug embedding variables containing other variable names (Example: $bien10, $bien1)
+- GPMProScript: Fix bug displaying English in Run Script interface
+- GPMLogin: Change server check IP & Timezone
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-05/06
+- Upate the function of checking all proxies in Proxy Management
+- GPMProScript: Allow embedding variables in CountElement
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-04
+- Update the error Store chrome extension does not load when opened
+- GPMProScript: Fix bug HTTP Post with mail.tm page
+- GPMProScript: Fix bug reading code from mail with verify as number
+- GPMProScript: Add detailed error message with unconnected profile
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-02
+- Update chromium v121, update fingerprint
+- Add fake MacOS operating system mode
+- GPMProScript: Save the Expanded state of Blocks for more convenience for script writers
+- GPMProScript: Fix HTTP Request error with rotating proxy form
+- GPMProScript: Blocks are bolded to easily distinguish from actions
+- GPMProScript: Fix bug reading mail code in some cases
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.0-stable-08
+- GPMProscript: fix Http Get, Http Post error when requesting to local URL (proxy not applied)
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.0-stable-07
+- Sync action: allows application to open profiles (only applies to 100% scale)
+- Sync action: optimizes dashboard display when in Sync mode
+- Allows importing Firefox profiles
+- API v3: Allows setting delete mode even in profile storage location
+- GPMProscript: Http Get, Http Post, Read Email IMap uses proxy with profile (support HTTP, Socks5, Socks4) instead of using default machine IP
+- GPMProscript: Allow embedding variables in Xpath SwitchToFrame
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-06
+- Sync action handles the case of new child window creation
+- GPMProscript: Fix error of reading Excel line deviation when inserting in While block
+- GPMProscript: Allow embedding variables in file path in Import / Export cookie function
+- Optimize profile closing process
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-03
+- Add error profile reporting function
+- GPMProscript: Fix error of like condition in some cases
+- GPMProscript: Fix some errors of reading, mapping Excel
+- GPMProscript: Add continue loop for loop processing
+- GPMProscript: Allow embedding variables in XPATH of many action
+------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-02
+- Fix error "account logged in elsewhere on some Private servers"
+- Fix error API v3 cannot customize version
+- Fix error cannot connect GPMProScript with chromium < 107 and some bugs from API
+------------------------------------------------------------------------------------------------
+PREVIOUS VERSION:
+Update from 1.0.0 to 3.0.0 is not displayed

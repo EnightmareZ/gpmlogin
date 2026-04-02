@@ -1,0 +1,100 @@
+{
+	"4.2.4-stable": {
+		"Vi": "- Fix update api v3 reset user-agent (Now user_agent can null)",
+		"En": "- Fix update api v3 reset user-agent (Now user_agent can null)",
+		"Cn": "- Fix update api v3 reset user-agent (Now user_agent can null)"
+	},
+	"4.2.3-stable": {
+		"Vi": "- Cập nhật API Service | Yêu cầu cập nhật GPMAutomate Runtime lên phiên bản 2.1.0-stable trở lên để đảm bảo sự ổn định remote",
+		"En": "- Update API Service | Requires updating GPMAutomate Runtime to version 2.1.0-stable or higher to ensure remote stability",
+		"Cn": "- 更新 API 服务 | 需要将 GPMAutomate Runtime 更新至 2.1.0-stable 或更高版本以确保远程稳定性"
+	},
+	"4.1.0-stable": {
+		"Vi": "- Cập nhật fingerprint data<br>- Tối ưu trình duyệt cho google. Vui lòng xem hướng dẫn cập nhật tại page: https://facebook.com/giaiphapmmodotnet",
+		"En": "Update fingerprint data<br>- Optimize browser for google. Please see update instructions at page: https://facebook.com/giaiphapmmodotnet",
+		"Cn": "更新指纹数据<br>- 针对谷歌优化浏览器。请参阅页面更新说明：https://facebook.com/giaiphapmmodotnet"
+	},
+	"4.0.8-stable": {
+		"Vi": "- Thêm tính năng tuy chỉnh WebRTC treo các kèo depin full điểm. Chú ý: cần cập nhật phiên bản trình duyệt v135 mới nhất",
+		"En": "- Add WebRTC customization feature to hang full-point depin bets. Note: need to update to the latest browser version v135",
+		"Cn": "- 添加 WebRTC 自定义功能以挂满点数投注。注意：需要更新到最新浏览器版本v135"
+	},
+	"4.0.2-stable": {
+		"Vi": "- Phiên bản ổn định 4.0.2<br>- Tích hợp TopProxy<br>- Thêm preview cửa sổ khi dùng tính năng sắp xếp cửa sổ",
+		"En": "- Stable version 4.0.2<br>- TopProxy integration<br>- Added window preview when using window arrangement feature",
+		"Cn": "- 稳定版本 4.0.2<br>- TopProxy 集成<br>- 使用窗口排列功能时添加窗口预览"
+	},
+	"4.0.1-stable": {
+		"Vi": "- Phiên bản ổn định 4.1<br>- Sửa lỗi một số lỗi giao diện<br>- Cập nhật nhân trình duyệt chromium 134",
+		"En": "- Stable version 4.1<bt>- Fixed some interface errors<br>- Updated chromium browser kernel 134",
+		"Cn": "- 稳定版本 4.1<bt>- 修复一些界面错误<br>- 更新 chromium 134 浏览器内核"
+	},
+	"4.0.0-stable": {
+		"Vi": "- Phiên bản ổn định 4.0<br>- Thêm tính năng nén profile bằng 7z (optinal)",
+		"En": "- Stable version 4.0<br>- Added profile compression feature using 7z (optinal)",
+		"Cn": "- 稳定版本 4.0<br>- 添加 7z 的配置文件压缩功能（可选）"
+	},
+	"4.0.0-beta-08": {
+		"Vi": "- Tích hợp mProxy<br>- Làm mượt UI",
+		"En": "- mProxy integration<br>- Smooth UI",
+		"Cn": "- 集成 mProxy<br>- 平滑 UI"
+	},
+	"4.0.0-beta-06": {
+		"Vi": "- Thêm AI hỗ trợ lỗi cho người dùng<br>- Tối ưu hóa Import / Export profile, cho phép sử dụng trong quá trình nén mà không cần chờ đợi",
+		"En": "- Add AI error support for users<br>- Optimize Import / Export profile, allowing use during compression without waiting",
+		"Cn": "- 为用户添加了AI错误支持<br> - 优化导入/导出配置文件，允许在压缩过程中使用而无需等待"
+	},
+	"4.0.0-beta-05": {
+		"Vi": "- Tối ưu tốc độ check license<br> - Thêm các công cụ hỗ trợ Backup, Restore, Rename profile folder, Auto fix resource. Hỗ trợ sử dụng google drive để lưu trữ backup / restore tiện lợi hơn khi đổi máy<br>- Thay đổi cơ chế Import / Export: sử dụng file zip duy nhất thay vì dạng thư mục như trước<br>- Thêm cài đặt extension dùng chung giúp tiết kiệm dung lượng ổ cứng<br>Thêm ngôn ngữ tiếng Trung<br>Sửa lỗi v4.0.0-beta: Sửa lỗi SyncAction không hoạt động trên phiên bản x64, sửa lỗi không chuyển sang private server<br>- Thêm icon proxy<br>- Thêm tag trong quản lý proxy<br>- Fix lỗi tự thoát ứng dụng",
+		"En": "- Optimize license check speed<br> - Add support tools for Backup, Restore, Rename profile folder, Auto fix resource. Support using google drive to store backup / restore more conveniently when changing devices<br>- Change Import / Export mechanism: use a single zip file instead of the previous folder format<br>- Add shared extension settings to save hard drive space<br>Add Chinese language<br>Fix v4.0.0-beta error: Fix SyncAction not working on x64 version, fix error not switching to private server<br>- Add proxy icon<br>- Add tag in proxy management<br>- Fix application auto-exit error",
+		"Cn": "优化许可证检查速度<br> - 添加工具支持备份、恢复、重命名配置文件文件夹、自动修复资源。支持在更换设备时更方便地使用 Google Drive 存储备份/恢复<br>- 更改导入/导出机制：使用单个 zip 文件而不是以前的文件夹格式<br>- 添加共享扩展设置以帮助节省硬盘空间<br>添加中文<br>修复错误 v4.0.0-beta: 修复 SyncAction 在 x64 版本上不起作用的错误，修复无法切换到私人服务器的错误<br>- 添加图标proxy<br>- 在代理管理中添加标签<br>- 修复自动退出应用程序的错误"
+	},
+	"4.0.0-beta-01": {
+		"Vi": "- Tối ưu tốc độ check license<br> - Thêm các công cụ hỗ trợ Backup, Restore, Rename profile folder, Auto fix resource. Hỗ trợ sử dụng google drive để lưu trữ backup / restore tiện lợi hơn khi đổi máy<br>- Thay đổi cơ chế Import / Export: sử dụng file zip duy nhất thay vì dạng thư mục như trước<br>- Thêm cài đặt extension dùng chung giúp tiết kiệm dung lượng ổ cứng<br>Thêm ngôn ngữ tiếng Trung<br>Sửa lỗi v4.0.0-beta: Sửa lỗi SyncAction không hoạt động trên phiên bản x64, sửa lỗi không chuyển sang private server",
+		"En": "- Optimize license check speed<br>- Add support tools for Backup, Restore, Rename profile folder, Auto fix resource. Support using google drive to store backup / restore more conveniently when changing devices<br>- Change Import / Export mechanism: use a single zip file instead of the previous folder format<br>- Add shared extension settings to save hard drive space<br>Add Chinese language<br>v4.0.0-beta bug fixes: Fixed SyncAction not working on x64 version, fixed not switching to private server",
+		"Cn": "- 优化许可证检查速度<br> - 添加工具支持备份、恢复、重命名配置文件文件夹、自动修复资源。支持在更换设备时使用Google Drive更方便地存储备份/恢复<br>-更改导入/导出机制：使用单个zip文件而不是像以前那样的文件夹格式<br>-添加共享扩展设置以帮助节省硬盘空间<br>添加中文<br>Bug修复v4.0.0-beta：修复SyncAction在x64版本上不起作用的错误，修复不切换到私人服务器的错误"
+	},
+	"3.0.4-stable-04": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Fix select all số lượng lớn (1000 profiles) bị đơ giao diện một lúc<br>- Fix lỗi nhỏ với private server<br>- Thêm chế độ check proxy đối với nhiều server cùng lúc (người dùng có thể cài đặt tại mục cài đặt nếu muốn tốc độ nhanh hơn - nên chỉ chọn 1 server)",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Fix selecting all in large quantities (1000 profiles) causing the interface to freeze at once<br>- Fix a small error with private servers<br>- Add proxy check mode for multiple servers at the same time (users can install it in the settings section if they want faster speed - should only select 1 server)"
+	},
+		"3.0.4-stable-05": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Thêm chế độ chọn profile: Quét chọn hoặc Tích vào profile như kiểu truyền thống<br>- Update UI/UX<br>- Cập nhật nhân Chromium v129 & Fingerprint (by pass fv.pro)<br>- Fix: chia sẻ profile, không cho nhiều tài khoản cùng tải profile<br>- Check proxy trước khi tải profile từ private server (giảm thời gian với trường hợp tải xong lại báo proxy die)<br>- Thêm chế độ API đa luồng cho máy cấu hình cao",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Add profile selection mode: Scan to select or Check profile like traditional style<br>- Update UI/UX<br>- Update Chromium v129 & Fingerprint kernel (by pass fv.pro)<br>- Fix: share profile, do not allow multiple accounts to download profile at the same time<br>- Check proxy before downloading profile from private server (reduce time in case proxy dies after downloading)<br>- Add multi-threaded API mode for high-configuration machines"
+	},
+		"3.0.4-stable-06": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Fix lỗi kết nối tới private server<br>- Thêm chế độ chọn profile: Quét chọn hoặc Tích vào profile như kiểu truyền thống<br>- Update UI/UX<br>- Cập nhật nhân Chromium v129 & Fingerprint (by pass fv.pro)<br>- Fix: chia sẻ profile, không cho nhiều tài khoản cùng tải profile<br>- Check proxy trước khi tải profile từ private server (giảm thời gian với trường hợp tải xong lại báo proxy die)<br>- Thêm chế độ API đa luồng cho máy cấu hình cao",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Fix private server connection<br>- Add profile selection mode: Scan to select or Check profile like traditional style<br>- Update UI/UX<br>- Update Chromium v129 & Fingerprint kernel (by pass fv.pro)<br>- Fix: share profile, do not allow multiple accounts to download profile at the same time<br>- Check proxy before downloading profile from private server (reduce time in case proxy dies after downloading)<br>- Add multi-threaded API mode for high-configuration machines"
+	},
+		
+		"3.0.4-stable-07": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Fix lỗi không hiển thị panel thao tác khi tích All (tại chế độ chọn profile bằng tích vào checkbox)<br>- Fix lỗi chọn nhiều profile ở chế độ chọn Scan chuột > Ấn các thao tác luôn thao tác vào profile đầu<br>- Update bypass moonbix (cập nhật bản mới tại chrome store 'Tele on GPM')",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Fix the error of not displaying the operation panel when selecting All (in profile selection mode by checking the checkbox)<br>- Fix the error of selecting multiple profiles in mouse Scan selection mode > Pressing the operations always operates on the first profile<br>- Update bypass moonbix (update the new version at chrome store 'Tele on GPM'"
+	},
+		
+		"3.0.4-stable-08": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Fix lỗi không thao tác được với menu con của profile<br> - Fix lỗi không hiển thị panel thao tác khi tích All (tại chế độ chọn profile bằng tích vào checkbox)<br>- Fix lỗi chọn nhiều profile ở chế độ chọn Scan chuột > Ấn các thao tác luôn thao tác vào profile đầu<br>- Update bypass moonbix (cập nhật bản mới tại chrome store 'Tele on GPM')",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Fix the error of not being able to operate with the profile submenu <br>- Fix the error of not displaying the operation panel when selecting All (in profile selection mode by checking the checkbox)<br>- Fix the error of selecting multiple profiles in mouse Scan selection mode > Pressing the operations always operates on the first profile<br>- Update bypass moonbix (update the new version at chrome store 'Tele on GPM'"
+	},
+		
+		"3.0.4-stable-09": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Update UI/UX<br>- Fix lỗi không sửa xóa tag được trên phiên bản 08",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Update UI/UX<br>- Fix edit/delete tag not working on version 08"
+	},
+		"3.0.4-stable-10": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Hỗ trợ x64 (hiệu năng cao) - vui lòng tải lại setup đè để sử dụng phiên bản này<br>- Cập nhật server check proxy",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- x64 support (good performace), please download new setup to install<br>- Update check proxy server"
+	},
+		"3.0.4-stable-11": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Fix lỗi thoát app khi call api lưu lượng lớn trên một số thiết bị<br>- Hỗ trợ x64 (hiệu năng cao) / Fix lỗi thoát ứng dụng khi sử dụng chức năng đồng bộ thao tác trên phiên bản x64 - vui lòng tải lại setup đè để sử dụng phiên bản này<br>- Cập nhật server check proxy",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Fix bug dis app when call alot of api request on some device<br>- x64 support (good performace) / Fix dis app when use sync action, please download new setup to install<br>- Update check proxy server"
+	},
+		"3.0.4-stable-12": {
+		"Vi": "- Fix lỗi sync action trên phiên bản x64",
+		"En": "- Fix bug sync action on x64 version"
+	},
+		"3.0.4-stable-14": {
+		"Vi": "CHÚ Ý ĐÓNG GPMPROSCRIPT NẾU CÓ ĐỂ VIỆC UPDATE KHÔNG XẢY RA LỖI<br><br>- Thêm Go Proxy<br>- Thêm api update webrtc mode<br>- Đổi Fproxy thành FProxy.me<br>- Fix mất tag khi gom nhóm profile",
+		"En": "NOTE TO CLOSE GPMPROSCRIPT IF ANY SO THAT THE UPDATE DOES NOT HAVE AN ERROR<br><br>- Add Go Proxy<br>- Add api update webrtc mode<br>- Change display name Fproxy to FProxy.me<br>- Fix missing tags when grouping profiles"
+	},
+}

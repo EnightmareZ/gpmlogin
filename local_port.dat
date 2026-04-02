@@ -1,0 +1,4 @@
+{
+  "websocket_port": 9967,
+  "http_port": 9996
+}

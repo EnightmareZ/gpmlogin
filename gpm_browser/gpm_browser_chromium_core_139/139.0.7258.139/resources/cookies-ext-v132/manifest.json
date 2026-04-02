@@ -1,0 +1,42 @@
+{
+  "name": "GPM Login 119",
+  "version": "1.6.0.0",
+  "description": "",
+  "offline_enabled": true,
+  "incognito": "split",
+  "permissions": [
+    "cookies",
+    "tabs",
+    "windows",
+    "privacy",
+    "notifications",
+    "management",
+    "webNavigation",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "contextMenus",
+    "processes",
+    "<all_urls>",
+    "contextMenus",
+
+    "chrome://resources/",
+    "chrome://webui-test/",
+    "contentSettings",
+    "metricsPrivate"
+  ],
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["v119/content_script/simulator_os.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "manifest_version": 2,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6QfkUWCTGVChmPaCdCvlgv1x7sbEEAYcWWQeIYYs7M++TqSm81IbqaLlfytDQsOP8CBOQ8lNIrQIKVKQPRR+CvXV3gosIEYZToxNkR9MyKkOYC4GlB1yawrYYdDkcSxs8u6oJ6poT1XOzOemX5zRy/59rvFw5BbOmC1coAI+vXKFhkO+FDQY5a72djd9/FKEx7dgqU9H89gFT1I8HGldE9EVdXqE1ip1FSrsFzjuDvVxpbgdn8UAEA3cWMjgYG+cttXdJvTQeqVpwAQ4nLLtIqtL6OGZeZtLz4vKAhW2SNidAMCqR1VBCFM+briunfoyzeGhCcdj8r33iLA7AMKJAwIDAQAB"
+}

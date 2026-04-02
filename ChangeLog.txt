@@ -1,0 +1,181 @@
+﻿VERSION 4.3.5
+- Tích hợp m2proxy
+
+VERSION 4.3.3:
+- Sửa lỗi bảo mật trình duyệt
+
+VERSION 4.2.7:
+- Cho hạ v139 -> v137
+- Fix sync action bị miss ở popup
+- Fix không đồng bộ trạng thái
+- Thêm phím tắt cho sync action
+- Thêm font khi fake macOS
+- Tăng tốc check socks5 UDP
+
+VERSION: 4.2.2
+- Fix không mở tab cũ trên Firefox
+- Thêm cài đặt tắt socks5 UDP
+- Không hiển thị proxy không hỗ trợ socks5
+- Fix không xóa dữ liệu extension dù đã tích chọn xóa
+- Fix api không mở v137 khi addinational args có --disable-features, --enable-features
+
+VERSION: v4.0.0-beta
+- Tăng tốc độ check license mức tối đa, tối ưu UI/UX
+- Import / Export profile sẽ được nén vào file zip duy nhất thay vì dạng folder và lược bớt cache để file export nhẹ hơn, dễ sử dụng hơn
+- Thêm "Công cụ": Backup, Restore, Rename profile folder, Auto fix resource
+- Thêm ngôn chữ Chinese
+
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-14
+- Thêm Go Proxy
+- Thêm api update webrtc mode
+- Đổi Fproxy thành FProxy.me
+- Fix mất tag khi gom nhóm profile
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-13
+- Thêm FProxy
+- Sửa lỗi hiển thị extension private server
+- Hiển thị Group Id để tiện cho việc nhập vào các script auto
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-10
+- 64bit support
+------------------------------------------------------------------------------------------------------
+VERSION: v3.0.4-stable-09
+- Update UI/UX
+- Fix không sửa xóa tag trên phiên bản 08
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.4-stable-05 / 06
+- Thêm chế độ chọn profile: Quét chọn hoặc Tích vào profile như kiểu truyền thống
+- Update UI/UX
+- Cập nhật nhân Chromium v129 & Fingerprint (by pass fv.pro)
+- Thêm chế độ webRTC: Real
+- Fix chia sẻ profile
+- Không cho nhiều tài khoản cùng tải profile
+- Check proxy trước khi tải profile từ private server (giảm thời gian với trường hợp tải xong lại báo proxy die)
+- Thêm chế độ API đa luồng cho máy cấu hình cao
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.4-stable-04
+- Fix select all số lượng lớn (1000 profiles) bị đơ giao diện một lúc
+- Fix lỗi nhỏ với private server
+- Thêm chế độ check proxy đối với nhiều server cùng lúc (người dùng có thể cài đặt tại mục cài đặt nếu muốn tốc độ nhanh hơn - nên chỉ chọn 1 server)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.4-stable-03
+- Fix bug API đa luồng
+- Update private server cho phép cache extension, giảm nhẹ dung lượng profile trên s3 đáng kể
+- Cho phép chọn nhiều Profile bằng thao tác quét chuột
+- Cho phép cài đặt server check IP & Timezone
+- GPMAutomate: Tối ưu đa luồng, cho phép giới hạn tài nguyên sử dụng tránh việc tràn CPU / RAM / Disk
+- GPMAutomate: Fix bug dừng nhưng không dừng hết profile
+- GPMAutomate: Thêm chức năng chạy và đặt lịch nhiều app cùng lúc
+- GPMAutomate: Fix một số bug khác theo report người dùng
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.4-stable-02
+- Bỏ sử dụng GPU render
+- Fix lỗi dis app khi sử dụng api đa luồng số lượng lớn
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.3-stable-08
+- API đa luồng (beta)
+- Hiển thị tất cả extension khi sửa extension cho số lượng lớn profile
+- Thêm 7z để giải nén file zip
+- Thêm cài đặt số luồng tải profile (private server)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.3-stable-02
+- Cập nhật chromium v127
+- Thêm thùng rác khi xóa profile
+- Thêm chức năng set proxy khi clone profile
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-14
+- Tích hợp thêm kiotproxy
+- GPMProScript: Thêm tùy chỉnh threshhold trong Image search
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-10/11
+- Fix bug Sync action
+- GPMProScript: cho phép đọc thư trong mục Spam
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-09
+- Fix lỗi sync action với cửa sổ extension
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-08
+- Fix một số bug từ API v3
+- Fix bug sync action
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-07
+- GPMProScript: Fix lỗi không tắt tiến trình gpmdriver
+- GPMLogin: Thêm chế độ cho chức năng sắp xếp cửa sổ
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-05/06
+- GPMLogin: fix một số lỗi tại chức năng đồng bị thao tác
+- GPMLogin: thêm chức năng sắp xếp cửa sổ
+- GPMProScript: fix một số lỗi mở chậm hoặc không đóng được profile 
+- GPMProScript: bổ sung chức năng Image Search (yêu cầu tải lại bản setup đè vào bản cũ)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-04
+- Fix lỗi đồng bộ thao tác
+- Fix lỗi export profile đối với chrome 124 mất cookie khi sang máy mới
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-02/03
+- Đồng bộ được các cửa sổ con tạo thêm như extension
+- Đồng bộ phím chuẩn hơn cho game pixel và một số thao tác khác liên quan bàn phím
+- Thêm thông báo khi chọn quá nhiều cửa sổ
+- Browser: Khắc phục extension tạo cửa sổ mới khi mở profile, như ví OkX
+- GPMProScript: Thêm chế độ bỏ qua check proxy để khởi động profile nhanh (không khuyên dùng)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.2-stable-01
+- GPMLogin: Cập nhật nhân Chrome 124
+- GPMProscript: Bổ sung thao tác click theo tọa độ
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-07/08/09
+- GPMProScript: Fix lỗi hiển thị khi có nhiều tên biến
+- GPMProScript: Fix bug nhúng biến chứa tên biến khác (Ví dụ: $bien10, $bien1)
+- GPMProScript: Fix bug hiển thị Tiếng Anh trong giao diện Run Script
+- GPMLogin: Thay đổi server check IP & Timezone
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-05/06
+- Upate chức năng check toàn bộ proxy trong Quản lý Proxy
+- GPMProScript: Cho phép nhúng biến trong CountElement
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-04
+- Update lỗi Store chrome extension không load khi mở
+- GPMProScript: Fix bug HTTP Post với trang mail.tm
+- GPMProScript: Fix bug đọc code từ mail với verify là số
+- GPMProScript: Thêm thông báo lỗi chi tiết với profile không kết nối được
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.1-stable-02
+- Update chromium v121, update thêm fingerprint
+- Thêm chế độ fake hệ điều hành MacOS
+- GPMProScript: Lưu trạng thái Expand (mở rộng) của các Block thuận tiện hơn cho người viết script
+- GPMProScript: Fix lỗi HTTP Request với dạng proxy xoay
+- GPMProScript: Block được in đậm để dễ phân biệt với các action
+- GPMProScript: Fix bug đọc mail code một số trường hợp
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-08
+- GPMProscript: sửa lỗi Http Get, Http Post khi request vào local URL (không áp dụng proxy)
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-07
+- Sync action: cho phép áp dụng với các profile đạng mở (chỉ áp dụng với scale 100%)
+- Sync action: tối ưu hóa hiển thị bảng điều khiển khi trong chế độ Sync
+- Cho phép import profile Firefox
+- API v3: Cho phép cài đặt chế độ xóa cả ở nơi lưu trữ profile
+- GPMProscript: Http Get, Http Post, Đọc Email IMap sử dụng proxy cùng với profile (hỗ trợ HTTP, Socks5, Socks4) thay vì dùng mặc định IP máy
+- GPMProscript: Cho phép nhúng biến trong Xpath SwitchToFrame
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-06
+- Sync action xử lý được thêm trường hợp cửa sổ con tạo mới
+- GPMProscript: Fix lỗi đọc lệch dòng excel khi chèn trong khối While
+- GPMProscript: Cho phép nhúng biến trong đường dẫn file trong chức năng Import / Export cookie
+- Tối ưu quy trình đóng profile
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-03
+- Thêm chức năng báo cáo profile lỗi
+- GPMProscript: Fix lỗi điều kiện like trong một số trường hợp
+- GPMProscript: Fix một số lỗi đọc, mapping Excel
+- GPMProscript: Thêm continue loop cho xử lý vòng lặp
+- GPMProscript: Cho phép nhúng biến trong XPATH của nhiều action
+------------------------------------------------------------------------------------------------------
+VERSION : v3.0.0-stable-02
+- Fix lỗi "tài khoản đăng nhập nơi khác trên một số Private server"
+- Fix lỗi API v3 không tùy chỉnh được version
+- Fix lỗi không kết nối được GPMProScript với chromium < 107 và một số bug từ API
+------------------------------------------------------------------------------------------------------
+PREVIOUS VERSION: 
+Update từ 1.0.0 tới 3.0.0 không được hiển thị

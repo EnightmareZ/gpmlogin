@@ -1,0 +1,2 @@
+gpm_browser/**/chrome.dll filter=lfs diff=lfs merge=lfs -text
+gpm_browser/**/xul.dll filter=lfs diff=lfs merge=lfs -text

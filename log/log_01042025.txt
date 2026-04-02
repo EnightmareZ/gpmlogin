@@ -1,0 +1,13 @@
+------------- NEW LOG START AT 10:19:15 -------------
+[10:19:15] : System.InvalidOperationException: Cannot set Owner property to a Window that has been closed.
+   at System.Windows.Window.set_Owner(Window value)
+   at GPMLogin.UI.Msg.AdvanceMessageBox.Show(String title, String message, MessageBoxImage messageBoxImage)
+   at B4A88E2D.3BB56918(Object B0B18E1A, CancelEventArgs 0486F3AA)
+   at System.Windows.Window.OnClosing(CancelEventArgs e)
+   at System.Windows.Window.WmClose()
+   at System.Windows.Window.WindowFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.PublicHooksFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
